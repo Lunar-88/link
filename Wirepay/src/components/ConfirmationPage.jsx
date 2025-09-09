@@ -47,7 +47,7 @@ function ConfirmationPage() {
         Verification
       </h1>
       <p className="text-gray-400 text-sm pr-6">
-        Enter the 6-digit code we sent to the authenticator associated with your
+        Enter the 6-digit code we sent to the authenticator associated <br/>with your
         account.
       </p>
       <form className="mt-5">
@@ -69,9 +69,9 @@ function ConfirmationPage() {
             ))}
           </div>
         </div>
-        <div className="text-center pr-6 mt-4">
+        <div className="text-center md:max-w-100 pr-6 mt-4">
           <button
-            className="bg-lime-300 w-full hover:bg-blue-700 text-black font-semibold py-2 px-4 rounded-3xl focus:outline-none focus:shadow-outline"
+            className="bg-lime-300 w-full hover:bg-lime-600 text-black font-semibold py-2 px-4 rounded-3xl focus:outline-none focus:shadow-outline"
             type="button"
           >
             Verify
